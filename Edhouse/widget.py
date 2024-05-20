@@ -15,7 +15,7 @@ class Widget(QWidget):
         self.ui = Ui_Edhouse()
         self.ui.setupUi(self)
         self.plain_text = ""
-        self.path = "../mapka.txt"
+        self.path = "mapka.txt"
         self.ui.run.clicked.connect(self.on_run)
         self.ui.selectFile.clicked.connect(self.on_select_file)
     
